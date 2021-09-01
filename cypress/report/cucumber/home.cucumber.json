@@ -1,0 +1,252 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Visit Home page",
+    "line": 1,
+    "id": "visit-home-page",
+    "tags": [],
+    "uri": "home.feature",
+    "elements": [
+      {
+        "id": "visit-home-page;home-button-exists",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Home button exists",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on home page",
+            "result": {
+              "status": "passed",
+              "duration": 349000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see Home link \"Zubair\"",
+            "result": {
+              "status": "passed",
+              "duration": 548000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "visit-home-page;eq-ui-01",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "EQ-UI-01",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I go to Home page",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see title 'UI Testing Site'",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "visit-home-page;req-ui-02",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "REQ-UI-02",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I go to Home page",
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should be able to see Company Logo",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "visit-home-page;req-ui-03",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "REQ-UI-03",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I click on Home button",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should get navigated to the Home page",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "visit-home-page;req-ui-04",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "REQ-UI-04",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I click on Home button",
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Home button should be in active state",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "visit-home-page;req-ui-08",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "REQ-UI-08",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I click on UI Testing button",
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I should get navigated to the Home page",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "visit-home-page;req-ui-09",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "REQ-UI-09",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "I viist Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "I should see text in h1 tag: 'Welcome to Pixelmatic QA department'",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "visit-home-page;req-ui-10",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "REQ-UI-10",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "I viist Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I should see text in p tag: 'This site is dedicated to perform some exercises and demonstrate automated web testing'",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

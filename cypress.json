@@ -1,0 +1,10 @@
+{
+    "baseUrl": "http://localhost:8082/",
+    "reporter": "mochawesome",
+    "reportOption": {
+        "overwrite": true,
+        "html": true,
+        "json": true
+    },
+    "ignoreTestFiles": "*.js"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Visit Error page",
+    "line": 1,
+    "id": "visit-error-page",
+    "tags": [],
+    "uri": "error.feature",
+    "elements": [
+      {
+        "id": "visit-error-page;eq-ui-01---get-title-for-error-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "EQ-UI-01 - get title for Error page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I go to Form page",
+            "result": {
+              "status": "passed",
+              "duration": 186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see title 'UI Testing Site'",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "visit-error-page;req-ui-07:-error-button-exists",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "REQ-UI-07: Error button exists",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am on Home page",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on error button",
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should get a 404 HTTP response code",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

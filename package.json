@@ -1,0 +1,28 @@
+{
+  "name": "demotest",
+  "version": "1.0.0",
+  "description": "QA Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "zubair",
+  "license": "ISC",
+  "dependencies": {
+    "mochawesome": "6.2.2",
+    "mochawesome-report-generator": "5.2.0",
+    "yarn": "^1.22.11"
+  },
+  "devDependencies": {
+    "cypress": "8.3.1",
+    "cypress-cucumber-preprocessor": "4.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/report/cucumber",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

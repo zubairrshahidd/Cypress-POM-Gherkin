@@ -1,0 +1,197 @@
+[
+  {
+    "description": "    Feature Verify Form page",
+    "keyword": "Feature",
+    "name": "Visit Form page",
+    "line": 1,
+    "id": "visit-form-page",
+    "tags": [],
+    "uri": "form.feature",
+    "elements": [
+      {
+        "id": "visit-form-page;eq-ui-01---get-title-for-form-page",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "EQ-UI-01 - get title for Form page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I go to Form page",
+            "result": {
+              "status": "passed",
+              "duration": 474000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see title 'UI Testing Site'",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "visit-form-page;req-ui-05",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "REQ-UI-05",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I click on form button",
+            "result": {
+              "status": "passed",
+              "duration": 530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should navigate to the form page",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "visit-form-page;req-ui-06",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "REQ-UI-06",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I click on Form  button",
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Form button should be in active state",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "visit-form-page;req-ui-11",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "REQ-UI-11",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I visit form page",
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I should see one input text field and one submit button",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "visit-form-page;req-ui-12",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "REQ-UI-12",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I visit form page",
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I enter text \"Zubair\" in the input field and submit the form",
+            "result": {
+              "status": "passed",
+              "duration": 358000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should be redirected to Home page",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected 'http://localhost:8082/hello.html?myName=Zubair' to equal 'http://localhost:8082/'\n    + expected - actual\n\n    -'http://localhost:8082/hello.html?myName=Zubair'\n    +'http://localhost:8082/'\n\n    at Context.eval (http://localhost:8082/__cypress/tests?p=cypress/integration/form.feature:115:12)\n    at Context.resolveAndRunStepDefinition (http://localhost:8082/__cypress/tests?p=cypress/integration/form.feature:12409:29)\n    at Context.eval (http://localhost:8082/__cypress/tests?p=cypress/integration/form.feature:11730:35)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "<value>"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Zubair"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be able to see the results as \"Hello Zubair!\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
