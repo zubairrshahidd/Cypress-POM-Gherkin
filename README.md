@@ -1,7 +1,7 @@
 # Cypress-POM-Gherkin
 
 
-### Run application
+#### Run application
 
 ## Clone the repository
 
