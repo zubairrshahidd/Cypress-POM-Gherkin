@@ -1,10 +1,12 @@
 {
-    "baseUrl": "http://localhost:8082/",
-    "reporter": "mochawesome",
-    "reportOption": {
+    "baseUrl": "http://localhost:8080/",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled" : "mochawesome",
+        "mochawesomeReporterOptions" :{
         "overwrite": true,
         "html": true,
         "json": true
-    },
+    }},
     "ignoreTestFiles": "*.js"
 }
