@@ -29,8 +29,6 @@ Then ("I should see Home link {string}", (varName)=> {
         expect(name.toLowerCase()).to.contain(varName.toLowerCase());
     } )
 
-
-
 })
 
     // EQ-UI-01
@@ -56,7 +54,6 @@ Then ("I should see Home link {string}", (varName)=> {
 
     } )
 
-
     // REQ-UI-03
 
     Given ("I click on Home button", ()=> {
@@ -66,11 +63,8 @@ Then ("I should see Home link {string}", (varName)=> {
     Then ("I should get navigated to the Home page", ()=> {
         cy.get(homePageObj.home_Tab).should("be.visible")
         cy.url().should('eq', homeData.homeURL)
-        
-
+    
     } )
-
-
 
     // REQ-UI-04
 
@@ -83,7 +77,6 @@ Then ("I should see Home link {string}", (varName)=> {
         cy.get(homePageObj.homeTabActive).should("have.text",homeData.homeTabText)
 
     } )
-
 
     // REQ-UI-08
 
@@ -98,8 +91,6 @@ Then ("I should see Home link {string}", (varName)=> {
 
     } )
 
-
-
     // REQ-UI-09
 
     Given ("I viist Home Page", ()=> {
@@ -109,10 +100,7 @@ Then ("I should see Home link {string}", (varName)=> {
     Then ("I should see text in h1 tag: 'Welcome to Pixelmatic QA department'", ()=> {
         cy.get(homePageObj.welcomeMessage).should("have.text",homeData.homeWelcomeMessage)
        
-
-    } )
-
-
+    })
 
     // REQ-UI-10
 
@@ -122,6 +110,5 @@ Then ("I should see Home link {string}", (varName)=> {
     
     Then ("I should see text in p tag: 'This site is dedicated to perform some exercises and demonstrate automated web testing'", ()=> {
         cy.get(homePageObj.welcomeDescription).should("have.text",homeData.homePagePTagMessage)
-     
 
     } )

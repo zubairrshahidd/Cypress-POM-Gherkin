@@ -4,11 +4,6 @@ const errorPageObj = require("../../pages/error/error-page");
 const homePageObj = require("../../pages/home/home_objects");
 const homeData = require("../../fixtures/home_testData");
 
-// const errorPageObj.errorTab = "#error"
-// const errorPageObj.homeTab = "#home"
-// const errorPageObj.errorText = "h1"
-// const errorPageError = "404 Error: File not found :-("
-
 // EQ-UI-01 - get title for Form page
 Given ("I go to Form page", ()=> {
     const url= Cypress.config().baseUrl

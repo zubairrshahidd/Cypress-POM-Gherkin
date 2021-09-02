@@ -1,6 +1,4 @@
 Feature: Visit Form page
-    
-    Feature Verify Form page
 
     Scenario: EQ-UI-01 - get title for Form page
     Given I go to Form page

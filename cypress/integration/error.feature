@@ -1,6 +1,5 @@
 Feature: Visit Error page
-    
-    # Feature Verify Error page
+
     Scenario: EQ-UI-01 - get title for Error page
     Given I go to Form page
     Then I should see title 'UI Testing Site'

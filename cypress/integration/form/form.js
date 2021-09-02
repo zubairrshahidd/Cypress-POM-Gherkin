@@ -4,13 +4,6 @@ const formData = require("../../fixtures/form_testData");
 const formPageObj = require("../../pages/form/form_objects");
 const homeData = require("../../fixtures/home_testData");
 
-// const form = "#form"
-// const formTabActive = ".active"
-// const formTabText = "Form" 
-// const formPageText = "Simple Form Submission"
-// const inputField = "#hello-input"
-// const submitButton = "#hello-submit"
-
 
 // EQ-UI-01 - get title for Form page
 Given ("I go to Form page", ()=> {

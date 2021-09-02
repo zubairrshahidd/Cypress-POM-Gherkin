@@ -1,6 +1,4 @@
 Feature: Visit Home page
-    
-    # Feature I want to Visit Home page
     Scenario: Home button exists
         Given I am on home page
         Then I should see Home link "Zubair"
