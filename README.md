@@ -3,7 +3,7 @@
 
 #### Run application
 
-### Clone the repository
+Clone the repository
 
 #### Install dependencies
 npm init
@@ -14,5 +14,5 @@ yarn install
 or
 npm install --global yarn  
 
-## Run Test
+#### Run Test
 npm run test
