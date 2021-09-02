@@ -1,14 +1,16 @@
 # Cypress-POM-Gherkin
 
 
-##Run application
+## Run application
 
-##Clone the repository
+## Clone the repository
 
-##Install dependencies
+## Install dependencies
 npm init
 npm install
 npm install yarn
+or
+yarn install
 or
 npm install --global yarn  
 
